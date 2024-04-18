@@ -1,4 +1,4 @@
-              Class       Package     childClassSamePack      childClassDiffPack      world
+/              Class       Package     childClassSamePack      childClassDiffPack      world
  Public        yes           yes              yes                   yes                yes
 Protected      yes           yes              yes                   yes                No
   Default      yes           yes              yes                   No                 No
