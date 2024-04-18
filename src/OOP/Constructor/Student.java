@@ -34,6 +34,8 @@ public class Student {
     Student(String name, int age){
         this.name = name;
         this.age = age;
+        System.out.println("Inside Custom constructor 1");
+
     }
 
     //Custom constructor
@@ -41,6 +43,8 @@ public class Student {
         this.name = name;
         this.age = age;
         this.batch = batch;
+        System.out.println("Inside Custom constructor 2");
+
     }
 
     //copy constructor
@@ -49,6 +53,8 @@ public class Student {
         this.age = st.age;
         this.batch = st.batch;
         this.psp=st.psp;
+        System.out.println("Inside copy constructor 1");
+
     }
 
     public void printInfo(){
