@@ -1,0 +1,8 @@
+Polymorphism -> Same thing; diff behaviour
+Compile time polymorphism -> Method overloading
+    Same method name with change in no of params or type of params
+    return type doesn't matter
+    JVM knows which method to call in the compile time itself
+Run time poly -> Method overriding
+    Inheritance is must
+    Should store child obj in parent type reference
