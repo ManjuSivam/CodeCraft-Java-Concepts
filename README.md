@@ -29,5 +29,7 @@ Codecraft-Java-Concepts aims to provide comprehensive explanations and examples 
 - [Shadowing](./src/OOP/Shadowing)
 - [This and Super methods](./src/OOP/ThisSuperMethods)
 - [Upcasting and Downcasting](./src/OOP/Polymorphism/Casting)
-
+- [Pass by value](./src/OOP/PassByValue)
+- [Abstract keyword](./src/OOP/AbstractKeyword)
+- 
 ![To Be Continued](https://img.shields.io/badge/To%20Be%20Continued-lightgrey)
