@@ -1,0 +1,9 @@
+1. We can have a method without implementation.
+    But need to declare the class as abstract.
+    Abstract KW cannot be associated with variables
+2. Class should be abstract if there is atleast ONE abstract method.
+3. If all methods are abstract -> 100% abstraction
+4. Cannot create object of abstract class type
+5. It is mandatory for the child classes that extends abstract classes to implement the abstract methods
+    If not implementing the abstract methods, declare the child class as also abstract
+6. constructor in the abstract class cannot be abstract. Constructor code can be run by super() from the child class
