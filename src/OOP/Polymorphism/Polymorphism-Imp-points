@@ -1,8 +1,15 @@
-Polymorphism -> Same thing; diff behaviour
-Compile time polymorphism -> Method overloading
+1. Polymorphism -> Same thing; diff behaviour
+2. Method Signature => Name of the method + Data type of params;
+                        return type is not a part of method signature
+Compile time polymorphism -> Method overloading - Method Signature should be DIFFERENT
     Same method name with change in no of params or type of params
     return type doesn't matter
     JVM knows which method to call in the compile time itself
-Run time poly -> Method overriding
+3. Run time poly -> Method overriding - CANNOT change Method Signature
     Inheritance is must
     Should store child obj in parent type reference
+    Return type cannot be changed unless they are co-variant
+    cannot reduce the visibility
+    Can increase the visibility
+4. Object created using parent type reference can access child's inherited/overridden methods
+but cannot access child's attributes; because Attributes (fields) do not participate in polymorphism in Java. Polymorphism primarily applies to methods, not fields.
