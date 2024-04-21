@@ -31,5 +31,7 @@ Codecraft-Java-Concepts aims to provide comprehensive explanations and examples 
 - [Upcasting and Downcasting](./src/OOP/Polymorphism/Casting)
 - [Pass by value](./src/OOP/PassByValue)
 - [Abstract keyword](./src/OOP/AbstractKeyword)
+- [Final keyword](./src/OOP/FinalKeyword)
+- [Static Keyword](./src/OOP/StaticKeyword)
 
 ![To Be Continued](https://img.shields.io/badge/To%20Be%20Continued-lightgrey)

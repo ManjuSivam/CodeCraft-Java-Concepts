@@ -1,0 +1,7 @@
+Static variables - Accessible in static blocks. static methods, non-static blocks, non static methods
+Non-Static Variables - Accessible in non-static blocks, non static methods
+                       Not accessible in static blocks. static methods
+2. Java program is executed in this order..
+    -> Static variables
+    -> Static Methods
+    -> Main Method
