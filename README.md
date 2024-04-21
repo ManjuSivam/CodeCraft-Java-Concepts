@@ -33,5 +33,6 @@ Codecraft-Java-Concepts aims to provide comprehensive explanations and examples 
 - [Abstract keyword](./src/OOP/AbstractKeyword)
 - [Final keyword](./src/OOP/FinalKeyword)
 - [Static Keyword](./src/OOP/StaticKeyword)
+- [Interfaces](./src/OOP/Interfaces)
 
 ![To Be Continued](https://img.shields.io/badge/To%20Be%20Continued-lightgrey)
