@@ -1,0 +1,15 @@
+1. one core executes one thread at a time
+2. 1 core with 2.5 GHz speed => can execute 2.5 * 10^9 operations / second
+    for eg, 1 thread does 10000 operations
+    single core processor can do 4 * 10000 operations within a second
+3. Steps to execute a task in diff thread
+    * Create a Task.
+        -> Create a Task class.
+        -> Make this class implement Runnable interface.
+        -> Implement the run() method.
+    * Create a Thread.
+        -> Create thread object.
+    * Assign the task to the thread.
+        -> Pass task object inside the constructor of thread class.
+    * Start the thread.
+        -> thread.start();

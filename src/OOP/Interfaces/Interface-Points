@@ -1,7 +1,9 @@
 1. By default, all methods inside interface are public & abstract
 2. Interface cannot be instantiated
 3. A class can implement any no of interfaces
-4. Empty interface -> Marker interface
+4. Normal Interface -> Interface with more than 1 method
+    SAM / Functional Interface -> Interface with single method
+    Marker interface -> Empty interface
 5. An interface cannot implement another interface; but can extend to another interface.
 6. From Java8, having concrete methods inside interface is allowed, but with DEFAULT keyword
     - it can be overridden in the classes that implements the interface
