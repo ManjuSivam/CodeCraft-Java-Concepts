@@ -1,4 +1,4 @@
-package Multithreading.print1to100;
+package Multithreading.Runnable.PrintNos;
 
 public class NumberPrinter implements Runnable{
     int number;

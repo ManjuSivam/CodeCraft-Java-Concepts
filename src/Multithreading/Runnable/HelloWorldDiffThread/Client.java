@@ -1,4 +1,4 @@
-package Multithreading.HelloWorldDiffThread;
+package Multithreading.Runnable.HelloWorldDiffThread;
 
 public class Client {
     public static void main(String[] args) {

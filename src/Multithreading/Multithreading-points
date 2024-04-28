@@ -14,3 +14,27 @@
         -> Pass task object inside the constructor of thread class.
     * Start the thread.
         -> thread.start();
+4. Executor service is used to reuse the threads.
+    ExecutorService is a higher-level concurrent programming utility that facilitates the execution of tasks asynchronously in a managed thread pool.
+    It provides methods to submit tasks for execution, manage their lifecycle, and obtain results asynchronously.
+    ExecutorService implementations manage the execution of Runnable and Callable tasks.
+5. Runnable
+    Runnable is a functional interface introduced in Java to represent a task that can be executed asynchronously.
+    It has a single run() method that contains the code to be executed by a thread.
+    Typically, Runnable tasks are executed by passing them to an ExecutorService.
+6. Callable
+    Callable is a functional interface similar to Runnable, but it can return a result and throw a checked exception.
+    It defines a single method call() that returns a result of type V.
+    Callable tasks are often used when you need to perform some computation asynchronously and get a result back.
+7. Usage:
+   To use an ExecutorService, you typically create an instance using Executors factory methods, such as newFixedThreadPool() or newCachedThreadPool().
+   You submit tasks to the ExecutorService using the submit() method, passing either a Runnable or a Callable.
+   The ExecutorService manages the execution of submitted tasks, handling thread creation, execution, and termination.
+8. Lifecycle:
+   ExecutorService instances manage a pool of worker threads. When you submit a task, the service assigns it to an available thread in its pool for execution.
+   You can shut down an ExecutorService explicitly using shutdown() or shutdownNow() methods to stop accepting new tasks and initiate the shutdown process.
+9. Result Handling:
+   When you submit a Callable task to an ExecutorService, you get a Future object as a result. You can use this Future to retrieve the result of the computation once it's available.
+   Future provides methods to check if the computation is complete, wait for its completion, and retrieve the result or handle exceptions if any.
+10. Error Handling:
+     When using Callable, be sure to handle checked exceptions thrown by the call() method either by catching them within the task or by handling them when retrieving the result from the Future.

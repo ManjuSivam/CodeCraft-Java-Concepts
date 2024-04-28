@@ -1,4 +1,4 @@
-package Multithreading.print1to100;
+package Multithreading.Runnable.PrintNos;
 
 public class ClientManual {
     public static void main(String[] args) {

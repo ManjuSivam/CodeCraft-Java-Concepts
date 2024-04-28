@@ -1,4 +1,4 @@
-package Multithreading.HelloWorldDiffThread;
+package Multithreading.Runnable.HelloWorldDiffThread;
 
 public class HelloWorldPrinter implements Runnable {
     @Override

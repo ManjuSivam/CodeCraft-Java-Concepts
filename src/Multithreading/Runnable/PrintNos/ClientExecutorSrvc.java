@@ -1,4 +1,4 @@
-package Multithreading.print1to100;
+package Multithreading.Runnable.PrintNos;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
