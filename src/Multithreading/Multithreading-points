@@ -7,6 +7,7 @@
         -> Create a Task class.
         -> Make this class implement Runnable interface.
         -> Implement the run() method.
+            The run() method contains the code to be executed in the new thread.
     * Create a Thread.
         -> Create thread object.
     * Assign the task to the thread.
