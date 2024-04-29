@@ -38,3 +38,5 @@
    Future provides methods to check if the computation is complete, wait for its completion, and retrieve the result or handle exceptions if any.
 10. Error Handling:
      When using Callable, be sure to handle checked exceptions thrown by the call() method either by catching them within the task or by handling them when retrieving the result from the Future.
+11. Synchronization :
+    When more than 1 thread work on the shared data at the same time, it can lead to wrong results
